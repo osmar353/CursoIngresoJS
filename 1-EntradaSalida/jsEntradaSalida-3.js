@@ -3,10 +3,10 @@ y luego mostrarlo por 'Alert' al presionar el botón  'MOSTRAR'*/
 function Mostar()
 {
 	//id="elNombre"
+	//document.g
 
-	var nombre;
-	nombre=document.getElementById('elNombre'). value;
-	alert(nombre) ;
+	var nombre= document.getElementById('elNombre'). value;
+	var edad= document.getElementById('elNombre'). value=dat;
 }
 
 
