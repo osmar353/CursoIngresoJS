@@ -4,50 +4,41 @@ mostar el resulto por medio de "ALERT"
 ej.: "la Resta es 750"*/ 
 function sumar()
 {	
-	var numeroUno;
+    var numeroUno;
 	var numeroDos;
-	numeroUno= document.getElementById("numeroUno").value;
-	numeroDos= document.getElementById("numeroDos").value;
+	numeroUno = parseInt(document.getElementById("numeroUno"). value);
+	numeroDos = parseInt(document.getElementById("numeroDos"). value);
+	var resultado = numeroUno + numeroDos;
+	alert("la suma es"+ resultado);
 
-	numeroUno=parseInt(numeroUno);
-	numeroDos=parseInt(numeroDos);
-	var suma =numeroUno+numeroDos;
-	alert("la suma es: " +suma);
 }
-
 function restar()
 {
-	var numeroUno;
+    var numeroUno;
 	var numeroDos;
-	numeroUno= document.getElementById("numeroUno").value;
-	numeroDos= document.getElementById("numeroDos").value;
-	
-	var resta =numeroUno-numeroDos;
-	alert("la resta es: "+resta);
+	numeroUno = document.getElementById("numeroUno"). value;
+	numeroDos = document.getElementById("numeroDos"). value;
+	var resultado = numeroUno - numeroDos;
+	alert("la resta es"+ resultado);
 }
 
 function multiplicar()
 { 
-	var numeroUno;
+		var numeroUno;
 	var numeroDos;
-	var resultado;
-	numeroUno= document.getElementById("numeroUno").value;
-	numeroDos= document.getElementById("numeroDos").value;
-
-	numeroUno=parseInt(numeroUno);
-	numeroDos=parseInt(numeroDos);
-	resultado=numeroUno*numeroDos;
-	alert("la multiplicación es: "+resultado);
+	numeroUno =document.getElementById("numeroUno"). value;
+	numeroDos = document.getElementById("numeroDos"). value;
+	var resultado = numeroUno * numeroDos;
+	alert("la multiplicacion  es"+ resultado);
 }
+
 function dividir()
 {
-	var numeroUno;
+    var numeroUno;
 	var numeroDos;
-	numeroUno= document.getElementById("numeroUno").value;
-	numeroDos= document.getElementById("numeroDos").value;
-
-	
-	var division =numeroUno/numeroDos;
-	alert("la divicion es: " +division);
+	numeroUno = document.getElementById("numeroUno"). value;
+	numeroDos = document.getElementById("numeroDos"). value;
+	var resultado = numeroUno / numeroDos;
+	alert("la division  es"+ resultado);
 }
 

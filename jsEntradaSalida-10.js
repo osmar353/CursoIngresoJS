@@ -6,12 +6,10 @@ function MostrarAumento()
 {
 	var importe;
 	var resultado;
-	var descuento;
-	importe=document.getElementById("importe").value;
-	importe=parseInt(importe);
-	descuento=importe*0.25;
-	resultado=importe-descuento;
 
-	document.getElementById("resultado").value = resultado;
+	importe = document.getElementById("importe"). value;
+	resultado = ("resultado"). value;
 
+	MostrarAumento = parseInt(importe) - parseInt(importe)*0.25;
+	document.getElementById("resultado"). value = MostrarAumento;
 }
